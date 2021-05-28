@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.clinicaveterinaria.MainActivity">
+    <item
+        android:id="@+id/concertarcita"
+        android:orderInCategory="2"
+        android:title="@string/pedir_cita"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cerrasesion"
+        android:orderInCategory="3"
+        android:title="@string/cerrar_sesion" />
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="4"
+        android:title="@string/salir" />
+    <item
+        android:id="@+id/listadocitas"
+        android:orderInCategory="1"
+        android:title="@string/lista" />
+</menu>

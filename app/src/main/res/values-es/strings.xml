@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clínica veterinaria</string>
+    <string name="motivo">Motivo:</string>
+    <string name="mascota">Mascota:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="hora">Hora:</string>
+    <string name="mis_citas">Mis citas</string>
+    <string name="pedir_cita">Concertar cita</string>
+    <string name="modificar_cita">Modificar cita</string>
+    <string name="lista">Lista de citas</string>
+    <string name="salir">Salir</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="clave">Contraseña:</string>
+    <string name="nueva_clave">Nueva contraseña:</string>
+    <string name="consulta_id">Consulta tu ID</string>
+    <string name="escribe_id">Escribe tu DNI y pulsa ENTER</string>
+    <string name="campo_vacio">Has dejado el campo en blanco</string>
+    <string name="campo_blanco">No puedes dejar campos en blanco</string>
+    <string name="tu_id_es">Tu ID es</string>
+    <string name="tu_id_es_incorrecto">El DNI introducido es incorrecto</string>
+    <string name="tu_id_clave_es_incorrecto">El ID o la clave es incorrecta</string>
+    <string name="clave_modificada">La contraseña ha sido modifida</string>
+    <string name="afirmacion">Si</string>
+    <string name="pregunta_salir">¿Desea salir de la aplicación?</string>
+    <string name="salir_cancelada">Opción salir cancelada</string>
+    <string name="no_atras">No puedes ir hacia trás desde esta pantalla</string>
+    <string name="esta_en_listado_citas">Ya está usted en el listado de citas</string>
+    <string name="salir_titulo">SALIR DE LA APLICACIÓN</string>
+    <string name="cita_pasada">No puedes anular una cita que ya ha pasado</string>
+    <string name="cita_anulada">Se ha anulado la cita</string>
+    <string name="opcion_anular_cita_cancelada">Opción de anular cita cancelada</string>
+    <string name="pregunta_anular_cita">¿Desea anular su cita?</string>
+    <string name="anular_cita">ANULAR CITA</string>
+    <string name="fecha_mayor">Tienes que elegir una fecha posterior a hoy</string>
+    <string name="fecha_no_disponible">La fecha y la hora elegidas no están dispnibles</string>
+    <string name="no_mascota">No tienes mascotas con ese nombre</string>
+    <string name="cita_concertada">Cita concertada para el día:</string>
+    <string name="tienes_cita">No puedes coger otra cita para tu mascota, ya tienes una cita pendiente</string>
+    <string name="cita_modificada">Cita modificada para el día:</string>
+</resources>
