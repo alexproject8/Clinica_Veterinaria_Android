@@ -38,4 +38,5 @@
     <string name="cita_concertada">Cita concertada para el día:</string>
     <string name="tienes_cita">No puedes coger otra cita para tu mascota, ya tienes una cita pendiente</string>
     <string name="cita_modificada">Cita modificada para el día:</string>
+    <string name="cambios">Cambios realizados</string>
 </resources>

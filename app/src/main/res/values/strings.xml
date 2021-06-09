@@ -37,4 +37,5 @@
     <string name="cita_concertada">Date set for the day:</string>
     <string name="tienes_cita">You have a pending date</string>
     <string name="cita_modificada">Cita modificada para el día:</string>
+    <string name="cambios">Changes made</string>
 </resources>

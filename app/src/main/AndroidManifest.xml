@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_isotipo"
         android:supportsRtl="true"
         android:theme="@style/Theme.ClinicaVeterinaria">
-        <activity android:name=".DetalleActivity"></activity>
+        <activity android:name=".IpActivity"></activity>
+        <activity android:name=".DetalleActivity" />
         <activity android:name=".ListaCitaActivity" />
         <activity android:name=".NuevaActivity" />
         <activity

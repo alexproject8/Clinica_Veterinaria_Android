@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,8 +28,9 @@ import java.net.UnknownHostException;
                 TextView txtId,txtClave,consultarId,txtDni,lblId,lblClave,lblNuevaClave,txtNuevaClave;
                 Socket sc;
                 boolean iniciar=true;
+                Button btnCredenciales;
 
-                public static final String IP = "192.168.2.117";
+                public static String IP = "127.0.0.1";
                 public static final int PUERTO = 9999;
 
                 @Override
@@ -58,6 +60,16 @@ import java.net.UnknownHostException;
                         lblNuevaClave=findViewById(R.id.lblNuevaClave);
                         txtNuevaClave=findViewById(R.id.txtNuevaClave);
                         imgSalir=findViewById(R.id.imgSalir);
+                        btnCredenciales=findViewById(R.id.btnCredenciales);
+
+                        btnCredenciales.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                //viaja a la activity con la lista de citas
+                                Intent intent = new Intent(MainActivity.this, IpActivity.class);
+                                startActivity(intent);
+                            }
+                        });
 
                         //---------- Detectar pulsación en el texto Consulta tu ID --------
                         consultarId.setOnClickListener(new View.OnClickListener() {
